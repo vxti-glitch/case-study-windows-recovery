@@ -1,0 +1,9 @@
+*.dmp
+*.etl
+*.evtx
+*.reg
+.env
+exports/
+logs/
+screenshots/private/
+
