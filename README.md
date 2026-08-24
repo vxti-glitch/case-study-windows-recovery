@@ -1,5 +1,6 @@
 # Case Study: Windows Recovery After an Optimizer Conflict
 
+[![PowerShell validation](https://github.com/vxti-glitch/case-study-windows-recovery/actions/workflows/powershell-validation.yml/badge.svg)](https://github.com/vxti-glitch/case-study-windows-recovery/actions/workflows/powershell-validation.yml)
 ![Case study](https://img.shields.io/badge/Format-sanitized_case_study-0F766E)
 ![Focus](https://img.shields.io/badge/Focus-Windows_support-2563EB)
 
@@ -63,6 +64,16 @@ This case study was reconstructed after the incident. The original registry path
 
 - [Sanitized ticket record](docs/sanitized-ticket.md)
 - [Windows recovery checklist](docs/recovery-checklist.md)
+
+## Companion Tool
+
+The case study now includes [Get-WindowsRecoveryBaseline.ps1](scripts/Get-WindowsRecoveryBaseline.ps1), a read-only PowerShell collector for documenting a Windows recovery investigation. It captures operating-system details, selected service states, recovery-point availability, and a small set of UAC policy values. It does not edit the registry, services, or system files.
+
+~~~powershell
+pwsh -NoProfile -File .\scripts\Get-WindowsRecoveryBaseline.ps1 -OutputPath .\reports\windows-recovery-baseline.json
+~~~
+
+Add -IncludeSystemFileScan to run sfc /verifyonly. That scan is read-only but may take time. See the [tool usage guide](docs/tool-usage.md) for output fields and operational limits.
 
 ## Skills Demonstrated
 

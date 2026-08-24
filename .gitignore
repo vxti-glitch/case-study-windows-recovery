@@ -5,4 +5,5 @@
 .env
 exports/
 logs/
+reports/
 screenshots/private/
