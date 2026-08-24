@@ -69,4 +69,3 @@ This case study was reconstructed after the incident. The original registry path
 Windows troubleshooting, registry awareness, root-cause isolation, change control, rollback planning, verification, and ticket documentation.
 
 > Registry edits can make a system unbootable. Export affected keys, create a recovery path, and verify changes against authoritative documentation before modifying production systems.
-

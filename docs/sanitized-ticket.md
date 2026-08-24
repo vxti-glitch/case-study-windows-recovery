@@ -36,4 +36,3 @@ Restored affected Windows configuration values to documented defaults, restarted
 - User data confirmed present.
 - Preventive guidance documented.
 - No real customer or device information retained in this record.
-
