@@ -1,5 +1,7 @@
 # Case Study: Windows Recovery After an Optimizer Conflict
 
+> **DEPRECATED — archive after this notice is merged.** The original incident has not been confirmed in this review as a personally experienced case with retained evidence, so this reconstruction is not part of the active portfolio. History is preserved for transparency. The retained [Windows First-Response System Snapshot](https://github.com/vxti-glitch/windows-system-health-checker) has explicit observation, privacy, test, and future-evidence boundaries.
+
 [![PowerShell validation](https://github.com/vxti-glitch/case-study-windows-recovery/actions/workflows/powershell-validation.yml/badge.svg)](https://github.com/vxti-glitch/case-study-windows-recovery/actions/workflows/powershell-validation.yml)
 ![Case study](https://img.shields.io/badge/Format-sanitized_case_study-0F766E)
 ![Focus](https://img.shields.io/badge/Focus-Windows_support-2563EB)
